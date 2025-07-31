@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selección de Fecha</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="full-image">
+    <img src="images/1era_pagina.png" alt="Selecciona la fecha" />
+  </div>
+
+  <div class="form-container">
+    <label for="fecha">Escribe su respuesta...</label>
+    <input type="text" id="fecha" placeholder="14 de abril de 2022" />
+    <button id="confirmBtn">Confirmar</button>
+  </div>
+
+  <script>
+    document.getElementById('confirmBtn').addEventListener('click', function() {
+      const val = document.getElementById('fecha').value.trim().toLowerCase();
+      if (val === '14 de abril de 2022') {
+        window.location.href = 'page2.html';
+      } else {
+        alert('Fecha incorrecta, intenta de vuelta.');
+      }
+    });
+  </script>
+</body>
+</html>

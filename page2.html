@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carta y Acertijo</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="full-image">
+    <img src="images/2da_pagina.png" alt="Carta" />
+  </div>
+
+  <div class="riddle-box">
+    <h2>Acertijo</h2>
+    <ul>
+      <li>Se encuentra afuera</li>
+      <li>Departamento temporal del lagarto</li>
+      <li>Casa de coro que jamás uso</li>
+    </ul>
+    <button id="doneBtn">He completado todas las pistas</button>
+  </div>
+
+  <script>
+    document.getElementById('doneBtn').addEventListener('click', function() {
+      alert('¡Felicidades mi corazón, puedes abrir tu regalo!');
+    });
+  </script>
+</body>
+</html>
