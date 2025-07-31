@@ -1,1 +1,47 @@
+body, html { margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
 
+.full-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.form-container {
+  text-align: center;
+  padding: 1rem;
+}
+.form-container label { display: block; margin-bottom: .5rem; font-size: 1.1rem; }
+.form-container input {
+  width: 80%; max-width: 300px;
+  padding: .5rem; font-size: 1rem;
+  border: 1px solid #ccc; border-radius: 4px;
+  margin-bottom: .75rem;
+}
+.form-container button {
+  padding: .5rem 1rem; font-size: 1rem;
+  border: none; border-radius: 4px;
+  background-color: #c0392b; color: #fff;
+  cursor: pointer;
+}
+.form-container button:hover { background-color: #e74c3c; }
+
+.riddle-box {
+  position: relative;
+  max-width: 400px;
+  margin: -150px auto 2rem;
+  background: rgba(255,255,255,0.9);
+  padding: 1.5rem; border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+.riddle-box h2 { margin-top: 0; font-size: 1.4rem; }
+.riddle-box ul { padding-left: 1.2rem; margin-bottom: 1rem; }
+.riddle-box li { margin-bottom: .5rem; }
+.riddle-box button {
+  display: block; margin: 0 auto;
+  padding: .5rem 1rem; font-size: 1rem;
+  border: none; border-radius: 4px;
+  background-color: #c0392b; color: #fff;
+  cursor: pointer;
+}
+.riddle-box button:hover { background-color: #e74c3c; }
